@@ -13,3 +13,5 @@ CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${A
 pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}" #Installs the specified version of Airflow and its dependencies.
 airflow standalone
 nohup airflow standalone > airflow.log 2>&1 & To run it in background use
+
+You can also refer to this document https://medium.com/p/250bffa6fb73/edit
